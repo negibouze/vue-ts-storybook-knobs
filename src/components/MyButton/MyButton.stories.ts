@@ -1,6 +1,6 @@
 import { storiesOf } from "@storybook/vue";
 import { action } from "@storybook/addon-actions";
-import { withKnobs, boolean } from "@storybook/addon-knobs";
+import { withKnobs, boolean } from "@storybook/addon-knobs/vue";
 import MyButton from "./MyButton.vue";
 
 const stories = storiesOf("MyButton", module);

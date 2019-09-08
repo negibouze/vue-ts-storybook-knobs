@@ -1,5 +1,5 @@
 import { storiesOf } from "@storybook/vue";
-import { withKnobs, select, text } from "@storybook/addon-knobs";
+import { withKnobs, select, text } from "@storybook/addon-knobs/vue";
 import Message from "./Message.vue";
 import { Color } from "./export-types";
 
